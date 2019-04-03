@@ -3,6 +3,7 @@ Algorithm #0.0.1
 Declare var
 Store some arithmetics into the varDisplay result
 Operands and Operators, functions
+@version 1.0.1 Ajout des variables de type opérandes
 """
 
 resultat = 0 # Définition de la variable
