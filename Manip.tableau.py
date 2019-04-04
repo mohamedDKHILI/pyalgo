@@ -104,6 +104,8 @@ print("factorielle:",facto(monTablo))
 
 
 
+
+
 #simple poor loop
 
 
