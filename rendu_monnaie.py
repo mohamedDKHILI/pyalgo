@@ -11,7 +11,7 @@ Use input () function to a user entry
 
 nbBillet100 = 0
 nbBillet50 = 0
-nbbillet10 = 0
+nbBillet10 = 0
 nbPiece = 0
 
 
@@ -26,17 +26,13 @@ if reste100 > 0:
     NbBillet50 = reste100 // 50
     reste50 = reste100 % 50
 
-    if reste50 > 0:
+    if  reste50 > 0:
         # got 10
-        NbBillet10 = reste50 // 10
+        nbBillet10 = reste50 // 10
         reste10 = reste50 % 10
 
         if reste10 > 0:
             nbPiece = reste10 // 2
             nbPiece = reste10 % 2
 
-print("la machine vous rend: ", nbBillet100)
-
-
-
-
+print("la machine vous rend: ", nbBillet100, "billets de 100e", nbBillet50, "billets de 50e", nbBillet10, "Billets de 10e") 
