@@ -15,21 +15,24 @@ nbBillet10 = 0
 nbPiece = 0
 
 
-entreeSomme = input("Inserez votre billet : ")
+
+entreeSomme = 470 
 somme = int(entreeSomme)
+
 
 # got 100
 nbBillet100 = somme // 100 
 reste100 = somme % 100
 if reste100 > 0:
     # got 50
-    NbBillet50 = reste100 // 50
-    reste50 = reste100 % 50
+    nbBillet50 = reste100 // 50
+    reste50 = somme % 50
+
 
     if  reste50 > 0:
         # got 10
         nbBillet10 = reste50 // 10
-        reste10 = reste50 % 10
+        reste10 = somme % 10
 
         if reste10 > 0:
             nbPiece = reste10 // 2

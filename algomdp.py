@@ -56,7 +56,7 @@ finalPassword = ""
 for indice in range(len(firstPassword)):
     finalPassword = finalPassword +firstPassword[indice]
 
-print("WalidleCamion, le mot de passe que vous avez généré est", finalPassword)
+print("Le mot de passe est", finalPassword)
 
 
 
